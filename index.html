@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="col-lg-12" id="header">
+			<div id="title">
+				<h1> Wet World </h1>
+			</div>
+		</div>
+		<div class="col-lg-12" id="search">
+			<form id="searchTerm">
+				<input id="pac-input" class="controls" type="text" placeholder="Your Spot">
+			</form>
+		</div>
+		<div class="col-lg-6" id="water">
+		<h1> Check-up On Your Day</h1>
+			<ul>
+      <li><span id="data-current"></span></li>
+	  <li><span id="data-temp_max"></span></li>
+      <li><span id="data-temp"></span></li>
+	  <li><span id="data-temp_min"></span></li>
+      <li><span id="data-humidity"></span></li>
+      <li><span id="data-wind"></span></li>
+      <li><span id="data-gust"></span></li>
+      <li><span id="data-angle"></span></li>
+      <li><span id="data-percipitation"></span></li>
+      <li><span id="data-sunrise"></span></li>
+      <li><span id="data-sunset"></span></li>
+    </ul>
+		</div>
+		<div class="col-lg-6" id="map"></div>
+	</div>
+	<script src="app/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC1jOj38KnsQSh3EVdSj1kyyJxZutJc3E"></script>
+	<script src="app/gmaps.js"></script>
+	<script src="app/app.js"></script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC1jOj38KnsQSh3EVdSj1kyyJxZutJc3E&libraries=places&callback=initAutocomplete" -->
+	<!-- async defer></script> -->
+	
+</body>
+</html>
